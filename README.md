@@ -1,5 +1,5 @@
 # node-gentry
-A reference library for the qCrypt implementation of Fully Homomorphic Encryption (FHE) by Craig Gentry. Built for (qCrypt)[https://getqcrypt.com/].
+A reference library for the qCrypt implementation of Fully Homomorphic Encryption (FHE) by Craig Gentry. Built for [qCrypt](https://getqcrypt.com/).
 
 ## Install
 ```bash
@@ -8,7 +8,7 @@ npm install fhe
 
 ## Information
 This library makes use of the (BigInteger.js library by Peter Olson)[https://github.com/peterolson/BigInteger.js].
-Inspired by a (Python demonstration by Christopher Swenson)[https://gist.github.com/swenson/1231675bd2617060540c056687428ca8].
+Inspired by a [Python demonstration by Christopher Swenson](https://gist.github.com/swenson/1231675bd2617060540c056687428ca8).
 
 *This library is intended for education purposes _ONLY_ and is _NOT_ suitable for production use.*
 
@@ -43,3 +43,26 @@ var decrypted   = fhe.decryptBit(keyPair.secret, ciphertext);
 // Verify the decrypted bit is the same as the original
 console.log(decrypted === bit);
 ```
+
+Method List
+===========
+### Initiation
+- [\_\_constructor ( )]()
+
+### Debug
+- [explainParameters ( )]()
+- [runTest ( )]()
+
+### Crypto
+- [genKeyPair ( )]()
+	- Returns an object containing _secret_ and _public_ parameters
+- [genSecret ( )]()
+- [genPublic ( *secret* )]()
+- [getD ( *secret* )]()
+- [getRem ( *a*, *b* )]()
+- [encryptBit ( *public*, *bit* )]()
+- [decryptBit ( *secret*, *ciphertext* )]()
+
+### General
+- [sortNumber ( )]()
+- [mod ( )]()
