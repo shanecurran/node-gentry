@@ -1,0 +1,39 @@
+{
+  "name": "node-gentry",
+  "version": "0.0.2",
+  "description": "A reference library for the qCrypt implementation of Fully Homomorphic Encryption (FHE) by Craig Gentry",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/narruc/node-gentry.git"
+  },
+  "keywords": [
+    "node",
+    "gentry",
+    "encryption",
+    "homomorphic",
+    "fully",
+    "homomorphic",
+    "post-quantum",
+    "quantum-secure",
+    "lattice",
+    "r-lwe",
+    "ring",
+    "learning",
+    "with",
+    "errors"
+  ],
+  "author": "Shane Curran",
+  "license": "GPL",
+  "bugs": {
+    "url": "https://github.com/narruc/node-gentry/issues"
+  },
+  "homepage": "https://github.com/narruc/node-gentry#readme",
+  "dependencies": {
+    "big-integer": "^1.6.17",
+    "csprng": "^0.1.1"
+  }
+}
