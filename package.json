@@ -1,6 +1,6 @@
 {
   "name": "fhe",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A reference library for the qCrypt implementation of Fully Homomorphic Encryption (FHE) by Craig Gentry",
   "main": "index.js",
   "scripts": {
