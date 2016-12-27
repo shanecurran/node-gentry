@@ -14,7 +14,8 @@ Inspired by a [Python demonstration by Christopher Swenson](https://gist.github.
 
 ## Usage
 ```javascript
-var fhe         = require("fhe");
+// Optionally, pass in an object to the constructor to set custom FHE params
+var fhe         = require("fhe")();
 
 // Simple explainer for the FHE parameters
 // (debug purposes)
