@@ -10,7 +10,7 @@ npm install fhe
 This library makes use of the [BigInteger.js library by Peter Olson](https://github.com/peterolson/BigInteger.js).
 Inspired by a [Python demonstration by Christopher Swenson](https://gist.github.com/swenson/1231675bd2617060540c056687428ca8).
 
-*This library is intended for education purposes _ONLY_ and is _NOT_ suitable for production use.*
+*This library is intended for educational purposes _ONLY_ and is _NOT_ suitable for production use.*
 
 ## Usage
 ```javascript
