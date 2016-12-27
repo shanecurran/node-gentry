@@ -25,11 +25,10 @@ fhe.explainParameters();
 // true  === success
 // false === something went wrong
 console.log(fhe.runTest());
+```
 
-//
-// For custom implementations
-//
-
+### For custom implementations
+```javascript
 // Generate a keypair (public key and private key)
 var keyPair     = fhe.genKeyPair();
 
